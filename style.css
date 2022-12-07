@@ -1,0 +1,274 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+header {
+  background-color: #491afc;
+  height: 500px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #fff;
+}
+
+.nav-item {
+  margin-top: 2rem;
+  margin-right: 3.5rem;
+  padding: 0 0.1rem;
+}
+
+.nav-item-active {
+  background: #fff;
+  color: #4617fe;
+  border-radius: 5px;
+  padding: 0.5rem 0.8rem;
+}
+
+.logo {
+  margin-left: 3.5rem;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-text {
+  margin-left: 3.5rem;
+  margin-top: 4rem;
+}
+
+.headerh2,
+.headerp {
+  color: #fff;
+}
+
+.headerh2 {
+  font-size: 3rem;
+}
+
+.headerp {
+  margin-top: 1.5rem;
+  font-size: 1.3rem;
+}
+
+.companies {
+  display: flex;
+  margin-left: 3.5rem;
+  margin-top: 1.3rem;
+  gap: 6rem;
+  font-size: 1.5rem;
+}
+
+.companies a {
+  font-family: "Righteous";
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #000;
+}
+
+.api {
+  margin-left: 3.5rem;
+  margin-top: 5rem;
+}
+
+.card,
+.cards {
+  padding: 2rem 1rem;
+}
+.cards {
+  display: flex;
+
+  padding-top: 0.5rem;
+  justify-content: space-between;
+}
+
+.card:hover {
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  border-radius: 8px;
+}
+
+.card-active {
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  border-radius: 8px;
+  padding: 2rem 1rem;
+}
+
+.blog-heading {
+  margin-left: 3.5rem;
+}
+
+.blog-cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.blog-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  width: 35rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 12px;
+  border-top-left-radius: 6rem;
+}
+.blog-image {
+  display: flex;
+  align-items: center;
+}
+.blog-content {
+  padding: 1rem 3.5rem;
+  margin-bottom: 2rem;
+}
+.blog-content h6 {
+  color: #4617fe;
+  font-size: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+.blog-content h3 {
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+  margin-top: -1rem;
+}
+.blog-card-bottom-image {
+  border: 5px solid #fff;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.blog-bottom {
+  position: absolute;
+  left: 20rem;
+  bottom: -26px;
+}
+
+.blog-author {
+  position: absolute;
+  right: 4.5rem;
+  bottom: 10px;
+  font-size: 0.8rem;
+  font-weight: 900;
+  color: #000;
+}
+
+.faq-section {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 4rem;
+  height: auto;
+  background: #e9edff;
+}
+
+.faq-content {
+  margin-left: 4.5rem;
+  margin-top: 1.5rem;
+}
+
+.faq-content h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.faq-content :nth-child(3) {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.faq-content button {
+  padding: 0.5rem 1rem;
+  background-color: #4617fe;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.download-section {
+  display: flex;
+  height: 150px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5rem 3.5rem;
+}
+
+.download-email input {
+  padding: 0 2rem;
+  font-size: 1rem;
+  margin: 8px;
+  background: #e9edff;
+  border: none;
+}
+.download-email form {
+  background: #e9edff;
+  border-radius: 0.8rem;
+}
+
+.download-email button {
+  background: #4617fe;
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  margin-left: 4rem;
+}
+
+/* Footer Section Starts */
+
+.footer-section {
+  background-color: #4617fe;
+  display: flex;
+  height: 200px;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  margin: 4rem 0 0 3.5rem;
+}
+
+.list {
+  display: flex;
+  color: #fff;
+  list-style: none;
+  margin: 1.5rem 0 0 3rem;
+  gap: 1.5rem;
+}
+
+.logos-list {
+  display: flex;
+  color: #fff;
+  list-style: none;
+  gap: 1.5rem;
+  margin-right: 2.5rem;
+  margin: 1.5rem 1.5rem 0 0;
+}
+
+.footer-logos {
+  margin-top: 4rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.footer-right {
+  margin-right: 2rem;
+}
+
+/* Footer Section Emds */
